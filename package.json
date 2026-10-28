@@ -1,0 +1,27 @@
+{
+  "name": "eslint-rn-plugin-component-order",
+  "version": "0.1.0",
+  "description": "ESLint rule that orders hooks, functions and values inside React and React Native components.",
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin", "react", "react-native", "hooks"],
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "engines": {
+    "node": "^20.9.0 || >=22.0.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0 || ^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.68.0"
+  }
+}
